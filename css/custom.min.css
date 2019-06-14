@@ -1,0 +1,319 @@
+/*
+ *  Draco HTML Template by @afnizarnur
+ *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display SC", serif;
+    color: #333
+}
+
+a,
+p,
+li {
+    font-family: "Lato", Arial, sans-serif;
+    color: #4e4e4e;
+    font-size: 1em;
+    line-height: 1.75em
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #333 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+
+.container {
+    margin: auto;
+    max-width: 662px;
+    padding: 0 20px
+}
+
+@media only screen and (max-width: 767px) {
+    .intro img {
+        display: block;
+        margin-right: auto
+    }
+    footer {
+        text-align: center
+    }
+}
+
+.typed-cursor {
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-ms-keyframes blink {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.main-nav {
+    background: #f4f4f4;
+    padding-top: 23px
+}
+
+.main-nav nav ul li a {
+    color: #a7a7a7
+}
+
+.main-nav nav ul li.active a {
+    color: #4d4d4d
+}
+
+.section.second {
+    margin-bottom: 90px
+}
+
+.section .container {
+    position: relative
+}
+
+.section .container:after {
+    position: absolute;
+    content: url(../img/separator.png);
+    left: 20px;
+}
+
+.section .container h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+    line-height: 1.3
+}
+
+.intro {
+    padding: 95px 0px 70px 0px;
+    overflow-x: hidden
+}
+
+.intro img {
+    width: 81px;
+    height: 81px;
+    border-radius: 99px
+}
+
+.intro .wrap {
+    margin: 30px 0px
+}
+
+.intro h1:before {
+    position: absolute;
+    left: -220px;
+    top: -150px;
+    font-size: 270px;
+    z-index: -1;
+    color: #f4f4f4
+}
+
+.intro h1 span {
+    font-size: 37px;
+}
+
+.work .work-list {
+    margin-left: 0px
+}
+
+.work .work-list li {
+    list-style: none;
+    font-size: 0.9375em;
+    color: #8c8c8c
+}
+
+.work .work-list li a {
+    padding-bottom: 5px;
+    font-size: 1.1875em;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid #b3b3b3
+}
+
+.work .work-list li a:hover {
+    border-bottom: 1px solid #333
+}
+
+.award .award-list {
+    margin-left: 0px
+}
+
+.award .award-list li:first-child {
+    font-size: 0.9375em;
+    color: #8c8c8c
+}
+
+.skills .skill-list {
+    margin-left: 0px
+}
+
+.skills .skill-list li:first-child {
+    font-size: 0.9375em;
+    color: #8c8c8c
+}
+
+
+
+.quote {
+    background: #726DA8;
+	color: #fff;
+    padding: 20px 0px;
+    margin-top: 120px
+    text-align: center;
+}
+
+.quote p {
+    color: #fff;
+    text-align: center;
+}
+
+
+footer {
+    padding: 50px 0px 0px 0px
+}
+
+footer .social li {
+    display: inline;
+    margin-left: 20px
+}
+
+footer .social li a {
+    font-size: 1.25em;
+    color: #999
+}
+
+
+/* custom styles */
+
+.project-container-stack {
+    margin-top: 20px;
+    color: gray;
+}
+
+.project-container-stack span {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.75em;
+    margin-right: 10px;
+}
+
+.project-container-stack p {
+    margin-bottom: 0px !important;
+}
+
+.project-label {
+    color: #333;
+    font-family: "Lato", Arial, sans-serif !important;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.intro-text {
+    margin-bottom: 1.25em;
+}
+
+.bottom-buffer {
+    margin-bottom: 1.65em;
+}
+   
+.bottom-buffer-project {
+    margin-bottom: 4em;
+}
+
+.logo-width {
+    width: 50px;
+}
+
+.closing-text {
+    max-width: 670px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+    /* font-family: Circularstd, sans-serif; */
+    color: #000;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+
+.email {
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.email-link {
+    padding-bottom: 4px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+        margin-top: 18px;
+    padding-bottom: 5px;
+    color: #747474;
+    font-size: 22px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+
+.contact a {
+    text-decoration: none;
+}

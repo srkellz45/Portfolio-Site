@@ -317,3 +317,12 @@ footer .social li a {
 .contact a {
     text-decoration: none;
 }
+
+.copyright {
+    position: relative;
+    top: 6px;
+}
+
+.shopify-logo {
+    width: 250px;
+}

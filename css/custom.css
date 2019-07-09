@@ -160,3 +160,11 @@ footer {
       font-size: 1.25em;
       color: #999999; }
 
+.copyright {
+    position: relative;
+    top: 6px;
+}
+
+.shopify-logo {
+    max-width: 250px;
+}

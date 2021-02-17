@@ -12,3 +12,19 @@ $(function() {
     }
   });
 });
+
+// Add year to footer dynamically using Date object
+const addFooterYear => () {
+  let year = new Date().getFullYear();
+  const footerYear = document.getElementById('date');
+  footerYear.innerHTML = year;
+}
+
+// On load of page
+window.addEventListener('load', function(e) {
+    // Call date funcion
+    addFooterYear();
+});
+
+
+

@@ -23,7 +23,6 @@ let addFooterYear = () => {
 // On load of page
 window.addEventListener('load', function(e) {
     // Call date funcion
-    console.log('test');
     addFooterYear();
 });
 
